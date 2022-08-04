@@ -12,7 +12,9 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
+  entry_points:
+    - constyle = constyle.__main__:main
 
 requirements:
   host:
