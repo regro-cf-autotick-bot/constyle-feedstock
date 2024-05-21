@@ -1,5 +1,5 @@
 {% set name = "constyle" %}
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 99b975a256ca469e545bee869185bd1d477b88022ddcec6e059c7a74d22ef59e
+  sha256: 482e0609e79cffd277f14962b1873f0f7ddaccd72bd17e2c653c31e898c0b451
 
 build:
   noarch: python
